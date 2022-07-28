@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4cfff97-9e62-4985-b1f8-a73e563033a8" name="Changes" comment="Init">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Entity/BookEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Entity/CommentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Entity/RecommendEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Entity/ReturnStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Feign/UserFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Mapper/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Mapper/CommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Mapper/RecommendMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/resources/static/1Trouble_Times_Two_GEORGE.O.SMITH.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/resources/static/2The_Poems_of_Goethe_Johann_Wolfgang_Von 4_Goethe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/resources/static/3The_Adventures_of_Pinocchio_Carlo.Collodi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/resources/static/4Eugenie_Grandet_Honore_de_Balzac.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/resources/static/5Roads_of_Destiny _O. Henry.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/resources/static/6Heart_of_the_West_O. Henry.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-friend/src/main/java/cs/hku/metalib/friend/Entity/ReturnStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-friend/src/main/java/cs/hku/metalib/friend/Feign/UserFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-message/src/main/java/cs/hku/metalib/message/Feign/UserFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CXJ0y8jb5KmZvlul6wn2iOeczm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/文档/FinalProject/TheMetaverseLibrary/metalib-book/src/main/resources/static",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\文档\FinalProject\TheMetaverseLibrary\metalib-book\src\main\resources\static" />
+      <recent name="D:\文档\FinalProject\TheMetaverseLibrary\metalib-user\src\main\java\cs\hku\metalib\user" />
+      <recent name="D:\文档\FinalProject\TheMetaverseLibrary\metalib-message\src\main\java\cs\hku\metalib\message" />
+      <recent name="D:\文档\FinalProject\TheMetaverseLibrary\metalib-friend\src\main\java\cs\hku\metalib\friend" />
+      <recent name="D:\文档\FinalProject\TheMetaverseLibrary\metalib-book\src\main\java\cs\hku\metalib\book" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cs.hku.metalib.message.Feign" />
+      <recent name="cs.hku.metalib.friend.Feign" />
+      <recent name="cs.hku.metalib.friend.Entity" />
+      <recent name="cs.hku.metalib.book.Entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MetalibUserApplication">
+    <configuration name="MetalibAdminApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cs.hku.metalib.admin.MetalibAdminApplication" />
+      <module name="metalib-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs.hku.metalib.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MetalibBookApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cs.hku.metalib.book.MetalibBookApplication" />
+      <module name="metalib-book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs.hku.metalib.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MetalibFriendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cs.hku.metalib.friend.MetalibFriendApplication" />
+      <module name="metalib-friend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs.hku.metalib.friend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MetalibMessageApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cs.hku.metalib.message.MetalibMessageApplication" />
+      <module name="metalib-message" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs.hku.metalib.message.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MetalibUserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cs.hku.metalib.user.MetalibUserApplication" />
+      <module name="metalib-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs.hku.metalib.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MetalibUserApplication" />
+        <item itemvalue="Application.MetalibMessageApplication" />
+        <item itemvalue="Application.MetalibFriendApplication" />
+        <item itemvalue="Application.MetalibBookApplication" />
+        <item itemvalue="Application.MetalibAdminApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4cfff97-9e62-4985-b1f8-a73e563033a8" name="Changes" comment="" />
+      <created>1658942779071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658942779071</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+  </component>
+</project>
