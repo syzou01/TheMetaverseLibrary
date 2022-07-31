@@ -168,4 +168,25 @@ public class BookService {
         }
         return bookMapper.selectBatchIds(idList);
     }
+
+    public ReturnStatus addBook(int bookId,String title, String author, String address){
+        BookEntity b = new BookEntity();
+        b.setBookId(bookId);
+        b.setBookName(title);
+        b.setAddress(address);
+        b.setAuthor(author);
+        bookMapper.insert(b);
+        ReturnStatus rs = new ReturnStatus(1,"success");
+        return rs;
+    }
+
+    public ReturnStatus deleteBook(int bookId){
+        bookMapper.deleteById(bookId);
+        ReturnStatus rs = new ReturnStatus(1,"success");
+        return rs;
+    }
+
+    public List<BookEntity> listAllBook(){
+        return bookMapper.selectAll();
+    }
 }

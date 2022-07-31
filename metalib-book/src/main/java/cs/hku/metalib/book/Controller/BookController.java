@@ -54,5 +54,24 @@ public class BookController {
         return recs;
     }
 
+
+    @RequestMapping("/add_book")
+    public String Add(@RequestParam("bookId") int bookId,@RequestParam("title") String title,@RequestParam("author") String author,@RequestParam("address") String address ){
+        ReturnStatus rs = bookService.addBook(bookId,title, author, address);
+        return rs.toString();
+    }
+
+    @RequestMapping("/delete_book")
+    public String Delete(@RequestParam("bookId") int bookId){
+        ReturnStatus rs = bookService.deleteBook(bookId);
+        return rs.toString();
+    }
+
+    @RequestMapping("/list_all_book")
+    public String ListAllBook(){
+        List<BookEntity> rs = bookService.listAllBook();
+        return rs.toString();
+    }
+
 }
 

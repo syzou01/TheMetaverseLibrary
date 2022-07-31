@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Date;
 import java.util.List;
 
 /*
@@ -41,4 +42,27 @@ public class MessageController {
         return result.toString();
     }
 
+    @RequestMapping("/add")
+    public ReturnStatus add(@RequestParam("from") String from, @RequestParam("to") String to, @RequestParam("msg") String msg,  @RequestParam("time") Date time,  @RequestParam("status") int status) {
+        ReturnStatus result = msgService.add(from, to, msg, time, status);
+        return result;
+    }
+
+    @RequestMapping("/delete")
+    public ReturnStatus delete(@RequestParam("id") int id) {
+        ReturnStatus result = msgService.delete(id);
+        return result;
+    }
+
+    @RequestMapping("/update")
+    public ReturnStatus update(@RequestParam("from") String from, @RequestParam("to") String to, @RequestParam("msg") String msg,  @RequestParam("time") Date time,  @RequestParam("status") int status) {
+        ReturnStatus result = msgService.update(from, to, msg, time, status);
+        return result;
+    }
+
+    @RequestMapping("/select_all")
+    public String selectAll() {
+        List<MsgEntity> result = msgService.selectAll();
+        return result.toString();
+    }
 }

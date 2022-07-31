@@ -5,30 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4cfff97-9e62-4985-b1f8-a73e563033a8" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Entity/BookEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Entity/CommentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Entity/RecommendEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Entity/ReturnStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Feign/UserFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Mapper/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Mapper/CommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Mapper/RecommendMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/resources/static/1Trouble_Times_Two_GEORGE.O.SMITH.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/resources/static/2The_Poems_of_Goethe_Johann_Wolfgang_Von 4_Goethe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/resources/static/3The_Adventures_of_Pinocchio_Carlo.Collodi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/resources/static/4Eugenie_Grandet_Honore_de_Balzac.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/resources/static/5Roads_of_Destiny _O. Henry.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-book/src/main/resources/static/6Heart_of_the_West_O. Henry.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-friend/src/main/java/cs/hku/metalib/friend/Entity/ReturnStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-friend/src/main/java/cs/hku/metalib/friend/Feign/UserFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metalib-message/src/main/java/cs/hku/metalib/message/Feign/UserFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-admin/src/main/java/cs/hku/metalib/admin/Feign/BookFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-admin/src/main/java/cs/hku/metalib/admin/Feign/FriendFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metalib-admin/src/main/java/cs/hku/metalib/admin/Feign/MessageFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-admin/src/main/java/cs/hku/metalib/admin/MetalibAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-admin/src/main/java/cs/hku/metalib/admin/MetalibAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-admin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-admin/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Mapper/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-book/src/main/java/cs/hku/metalib/book/Service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-friend/src/main/java/cs/hku/metalib/friend/Controller/FriendController.java" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-friend/src/main/java/cs/hku/metalib/friend/Controller/FriendController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-friend/src/main/java/cs/hku/metalib/friend/Mapper/FriendMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-friend/src/main/java/cs/hku/metalib/friend/Mapper/FriendMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-friend/src/main/java/cs/hku/metalib/friend/Service/FriendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-friend/src/main/java/cs/hku/metalib/friend/Service/FriendService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-message/src/main/java/cs/hku/metalib/message/Controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-message/src/main/java/cs/hku/metalib/message/Controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-message/src/main/java/cs/hku/metalib/message/Mapper/MsgMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-message/src/main/java/cs/hku/metalib/message/Mapper/MsgMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-message/src/main/java/cs/hku/metalib/message/Service/MsgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-message/src/main/java/cs/hku/metalib/message/Service/MsgService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-user/src/main/java/cs/hku/metalib/user/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-user/src/main/java/cs/hku/metalib/user/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-user/src/main/java/cs/hku/metalib/user/Mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-user/src/main/java/cs/hku/metalib/user/Mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metalib-user/src/main/java/cs/hku/metalib/user/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/metalib-user/src/main/java/cs/hku/metalib/user/Service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,7 +55,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/文档/FinalProject/TheMetaverseLibrary/metalib-book/src/main/resources/static",
+    "last_opened_file_path": "D:/文档/FinalProject/TheMetaverseLibrary/metalib-admin/src/main/java/cs/hku/metalib/admin",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -68,11 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\文档\FinalProject\TheMetaverseLibrary\metalib-admin\src\main\java\cs\hku\metalib\admin" />
       <recent name="D:\文档\FinalProject\TheMetaverseLibrary\metalib-book\src\main\resources\static" />
       <recent name="D:\文档\FinalProject\TheMetaverseLibrary\metalib-user\src\main\java\cs\hku\metalib\user" />
       <recent name="D:\文档\FinalProject\TheMetaverseLibrary\metalib-message\src\main\java\cs\hku\metalib\message" />
       <recent name="D:\文档\FinalProject\TheMetaverseLibrary\metalib-friend\src\main\java\cs\hku\metalib\friend" />
-      <recent name="D:\文档\FinalProject\TheMetaverseLibrary\metalib-book\src\main\java\cs\hku\metalib\book" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cs.hku.metalib.message.Feign" />

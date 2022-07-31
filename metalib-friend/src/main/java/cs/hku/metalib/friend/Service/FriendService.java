@@ -167,4 +167,37 @@ public class FriendService {
         return list;
     }
 
+    public ReturnStatus addFriend(String usr1, String usr2){
+
+        FriendEntity f1 = friendMapper.selectByName(usr1, usr2);
+        FriendEntity f2 = friendMapper.selectByName(usr2, usr1);
+        if(f1==null){
+            FriendEntity f1add = new FriendEntity();
+            f1add.setUserId(usr1);
+            f1add.setContactId(usr2);
+            int result2 = friendMapper.insert(f1add);
+            if(result2<=0){
+                ReturnStatus rs = new ReturnStatus(0,"failed please try again");
+                return rs;
+            }
+        }
+        if(f2==null){
+            FriendEntity f2add = new FriendEntity();
+            f2add.setUserId(usr2);
+            f2add.setContactId(usr1);
+            int result3 = friendMapper.insert(f2add);
+            if(result3<=0){
+                ReturnStatus rs = new ReturnStatus(0,"failed, please try again");
+                return rs;
+            }
+        }
+        ReturnStatus rs = new ReturnStatus(1,"success");
+        return rs;
+    }
+
+    public List<FriendEntity> getAllFriendList(){
+        List<FriendEntity> list = friendMapper.selectAll();
+        return list;
+    }
+
 }

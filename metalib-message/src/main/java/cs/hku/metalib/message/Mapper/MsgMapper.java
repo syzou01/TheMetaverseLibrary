@@ -28,4 +28,6 @@ public interface MsgMapper extends BaseMapper<MsgEntity> {
     @Select(value ="select * from user_message msg where msg.message_id = #{id}")
     MsgEntity selectByMsgId(int id);
 
+    @Select(value ="select * from user_message")
+    List<MsgEntity> selectAll();
 }

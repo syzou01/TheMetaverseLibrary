@@ -55,8 +55,8 @@ public class FriendController {
     }
 
     @RequestMapping("/delete_friend")
-    public String deleteFriend(@RequestParam("usr1") String usr1,@RequestParam("usr2") String usr2) {
-        ReturnStatus result = friendService.deleteFriend(usr1,usr2);
+    public String deleteFriend(@RequestParam("usr1") String usr1, @RequestParam("usr2") String usr2) {
+        ReturnStatus result = friendService.deleteFriend(usr1, usr2);
         return result.toString();
     }
 
@@ -66,4 +66,15 @@ public class FriendController {
         return list;
     }
 
+    @RequestMapping("/add_friend")
+    public ReturnStatus addFriend(@RequestParam("usr1") String usr1, @RequestParam("usr2") String usr2) {
+        ReturnStatus result = friendService.addFriend(usr1, usr2);
+        return result;
+    }
+
+    @RequestMapping("/get_all_friend_list")
+    public String getAllFriendList() {
+        List<FriendEntity> list = friendService.getAllFriendList();
+        return list.toString();
+    }
 }

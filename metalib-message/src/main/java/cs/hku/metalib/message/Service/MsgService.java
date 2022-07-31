@@ -12,6 +12,7 @@ import cs.hku.metalib.message.Feign.UserFeignService;
 import cs.hku.metalib.message.Mapper.MsgMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.Date;
 import java.util.List;
@@ -70,5 +71,33 @@ public class MsgService {
         msgMapper.markMsg(id);
         ReturnStatus rs = new ReturnStatus(1,"success");
         return rs;
+    }
+
+    public ReturnStatus add(String from,String to,String msg,Date time,int status){
+        msgMapper.insertMsg(from, to, msg, time);
+        ReturnStatus rs = new ReturnStatus(1,"success");
+        return rs;
+    }
+
+    public ReturnStatus delete(int id){
+        msgMapper.deleteById(id);
+        ReturnStatus rs = new ReturnStatus(1,"success");
+        return rs;
+    }
+
+    public ReturnStatus update(String from,String to,String msg,Date time,int status){
+        MsgEntity nMsg = new MsgEntity();
+        nMsg.setFrom(from);
+        nMsg.setTo(to);
+        nMsg.setTime(time);
+        nMsg.setMessage(msg);
+        nMsg.setStatus(status);
+        msgMapper.updateById(nMsg);
+        ReturnStatus rs = new ReturnStatus(1,"success");
+        return rs;
+    }
+
+    public List<MsgEntity> selectAll(){
+        return msgMapper.selectAll();
     }
 }

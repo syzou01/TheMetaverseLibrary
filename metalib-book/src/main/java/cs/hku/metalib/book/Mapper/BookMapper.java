@@ -16,4 +16,6 @@ public interface BookMapper extends BaseMapper<BookEntity> {
     @Select(value ="select * from book_list book where book.book_name LIKE  '%' #{query} '%'")
     List<BookEntity> searchByStr(String query);
 
+    @Select(value ="select * from book_list")
+    List<BookEntity> selectAll();
 }

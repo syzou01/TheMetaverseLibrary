@@ -2,6 +2,7 @@ package cs.hku.metalib.user.Controller;
 
 
 import cs.hku.metalib.user.Entity.ReturnStatus;
+import cs.hku.metalib.user.Entity.UserEntity;
 import cs.hku.metalib.user.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -41,4 +42,27 @@ public class UserController {
         return result;
     }
 
+    @RequestMapping("/add")
+    public ReturnStatus add(@RequestParam("usr") String usr, @RequestParam("psw") String password) {
+        ReturnStatus result = userService.add(usr, password);
+        return result;
+    }
+
+    @RequestMapping("/delete")
+    public ReturnStatus add(@RequestParam("usr") String usr) {
+        ReturnStatus result = userService.delete(usr);
+        return result;
+    }
+
+    @RequestMapping("/update")
+    public ReturnStatus add(@RequestParam("usr") String usr, @RequestParam("psw") String password,@RequestParam("status") String status) {
+        ReturnStatus result = userService.update(usr, password, status);
+        return result;
+    }
+
+    @RequestMapping("/select_all")
+    public String selectAll() {
+        List<UserEntity> result = userService.selectAll();
+        return result.toString();
+    }
 }
